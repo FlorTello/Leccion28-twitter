@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  height: 46px;
+  background-color: #fff;
+  width: 100%;
+}
+nav .nav-left{
+  float: left;
+}
+nav span{
+  padding: 10px 7px;
+}
+nav span i{
+  padding-left: 5px;
+}
+.nav-left span:hover{
+  border-bottom: 3px solid #e81c4f;
+}
+nav .nav-right{
+  float: right;
+}
+nav .nav-center{
+  padding-left: 30%;
+}
