@@ -2,24 +2,73 @@
   padding: 0;
   margin: 0;
 }
-nav{
-  height: 46px;
-  background-color: #fff;
+.content{
+  /*width: 90%;*/
+  margin-left: 80px;
+  margin-right: 80px;
+  /*box-sizing: content-box;*/
+}
+header{
+  border-bottom: solid 1px #cad0d5;
   width: 100%;
+  height: 46px;
+  position: fixed;
+}
+nav{
+  background-color: #fff;
+  width: 86%;
 }
 nav .nav-left{
   float: left;
+}
+span.nav-center{
+  color: #1da1f2;
+}
+nav .nav-left, .nav-right , .nav-center {
+  margin-top: 7px;
 }
 nav span{
   padding: 10px 7px;
 }
 nav span i{
   padding-left: 5px;
+  font-style: normal;
 }
 .nav-left span:hover{
-  border-bottom: 3px solid #e81c4f;
+  border-bottom: 3px solid #1da1f2;
 }
 nav .nav-right{
+  float: right;
+}
+nav .nav-right button{
+  color: #fff;
+  background-color: #1da1f2;
+  border: transparent;
+  border-radius: 5px;
+  height: 32px;
+  width: 100px;
+}
+nav .nav-right input{
+  height: 32px;
+  border: solid 1px #cad0d5;
+  border-radius: 15px;
+  background: #f5f8fa;
+  background-image: url('../img/searchicon.png');
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 0 40px;
+}
+nav .nav-right input:focus{
+  background-color: #fff;
+  outline: 0;
+}
+nav .foto{
+  border-radius: 50%;
+  width: 42px;
+  margin: auto 10px;
+}
+nav .nav-right *{
   float: right;
 }
 nav .nav-center{
