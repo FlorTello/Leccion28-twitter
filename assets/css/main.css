@@ -134,7 +134,11 @@ section.col-datos .perfil{
   position: relative;
 }
 .tendencia{
-  padding: 10px;
+  padding: 5px;
+  color: #66757F;
+}
+.tendencia p{
+  font-size: 12px;
 }
 .foto1{
   position: absolute;
