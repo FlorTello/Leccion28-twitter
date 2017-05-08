@@ -2,10 +2,19 @@
   padding: 0;
   margin: 0;
 }
+body{
+  background: #f5f8fa;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
 .content{
-  /*width: 90%;*/
   padding-left: 80px;
   padding-right: 80px;
+  width: 87%;
 }
 header{
   border-bottom: solid 1px #cad0d5;
@@ -13,13 +22,10 @@ header{
   position: fixed;
   width: 100%;
   box-shadow:0 0 2px #cad0d5;
-}
-nav{
   background-color: #fff;
-  /*width: 86%;*/
 }
 nav .nav-left{
-  float: left;
+  color: #66757F;
 }
 span.nav-center{
   color: #1da1f2;
@@ -36,9 +42,6 @@ nav span i{
 }
 .nav-left span:hover{
   border-bottom: 3px solid #1da1f2;
-}
-nav .nav-right{
-  float: right;
 }
 nav .nav-right button{
   color: #fff;
@@ -72,5 +75,39 @@ nav .nav-right *{
   float: right;
 }
 nav .nav-center{
-  padding-left: 30%;
+  padding-left: 20%;
+  font-size: 1.5rem;
+}
+/*contenido Principal*/
+main{
+  padding-top: 56px;
+}
+.col-datos,.col-seguir{
+  width: 24%;
+  /*border: solid;*/
+  background-color: red;
+  /*margin-left: 10px;*/
+}
+section.col-datos .perfil{
+  border-radius:7px;
+  overflow: auto;
+}
+section.col-datos .perfil div:nth-child(1){
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  height: 96px;
+  /*position: relative;*/
+}
+section.col-datos .perfil div:nth-child(2){
+  background-image: url("../img/michelle.jpg");
+  background-repeat: no-repeat;
+  background-size: 32px;
+  height: 96px;
+  width: 32px;
+  /*position: relative;*/
+}
+.col-posts{
+  width: 48%;
+  border: solid;
+  margin-left: 14px;
 }
