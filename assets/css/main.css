@@ -85,26 +85,16 @@ main{
 .col-datos,.col-seguir{
   width: 24%;
   /*border: solid;*/
-  background-color: red;
+  /*background-color: red;*/
   /*margin-left: 10px;*/
 }
 section.col-datos .perfil{
-  border-radius:7px;
+  border-radius:7%;
   overflow: auto;
 }
-section.col-datos .perfil div:nth-child(1){
-  background-image: url("../img/fondo.jpg");
-  background-repeat: no-repeat;
-  height: 96px;
-  /*position: relative;*/
-}
-section.col-datos .perfil div:nth-child(2){
-  background-image: url("../img/michelle.jpg");
-  background-repeat: no-repeat;
-  background-size: 32px;
-  height: 96px;
-  width: 32px;
-  /*position: relative;*/
+section.col-datos .perfil div{
+  width:72px;
+  float: left;
 }
 .col-posts{
   width: 48%;
