@@ -4,19 +4,19 @@
 }
 .content{
   /*width: 90%;*/
-  margin-left: 80px;
-  margin-right: 80px;
-  /*box-sizing: content-box;*/
+  padding-left: 80px;
+  padding-right: 80px;
 }
 header{
   border-bottom: solid 1px #cad0d5;
-  width: 100%;
   height: 46px;
   position: fixed;
+  width: 100%;
+
 }
 nav{
   background-color: #fff;
-  width: 86%;
+  /*width: 86%;*/
 }
 nav .nav-left{
   float: left;
@@ -65,8 +65,8 @@ nav .nav-right input:focus{
 }
 nav .foto{
   border-radius: 50%;
-  width: 42px;
-  margin: auto 10px;
+  width: 35px;
+  margin: 0 10px;
 }
 nav .nav-right *{
   float: right;
