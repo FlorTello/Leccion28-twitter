@@ -16,6 +16,19 @@ body{
   padding-right: 80px;
   width: 87%;
 }
+.color-grey{
+  color: #808F9B;
+}
+.f-white{
+  background-color: #fff;
+}
+.color-border{
+  border: #e1e8ed solid 1px;
+}
+.border-radius{
+    border-radius: 7px;
+    overflow: auto;
+}
 header{
   border-bottom: solid 1px #cad0d5;
   height: 46px;
@@ -60,7 +73,7 @@ nav .nav-right input{
   background-size: 50px;
   background-repeat: no-repeat;
   background-position: right;
-  padding: 0 40px;
+  padding: 0 40px 0 10px ;
 }
 nav .nav-right input:focus{
   background-color: #fff;
@@ -89,15 +102,16 @@ main{
   /*margin-left: 10px;*/
 }
 section.col-datos .perfil{
-  border-radius:7%;
   overflow: auto;
-}
-section.col-datos .perfil div{
-  width:72px;
-  float: left;
 }
 .col-posts{
   width: 48%;
-  border: solid;
   margin-left: 14px;
+}
+.col-posts .estado{
+  background-color: #E8F4FB;
+}
+.enlace *{
+  font-size: 1rem;
+  margin: 0 20px;
 }
