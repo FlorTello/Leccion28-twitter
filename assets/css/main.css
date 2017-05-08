@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: Arial;
 }
 body{
   background: #f5f8fa;
@@ -28,6 +29,17 @@ body{
 .border-radius{
     border-radius: 7px;
     overflow: auto;
+}
+.text-uppercase{
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.text-blue{
+  color: #1da1f2;
+}
+a{
+  text-decoration: none;
+  color: #1da1f2;
 }
 header{
   border-bottom: solid 1px #cad0d5;
@@ -97,12 +109,10 @@ main{
 }
 .col-datos,.col-seguir{
   width: 24%;
-  /*border: solid;*/
-  /*background-color: red;*/
-  /*margin-left: 10px;*/
 }
 section.col-datos .perfil{
   overflow: auto;
+  position: relative;
 }
 .col-posts{
   width: 48%;
@@ -114,4 +124,25 @@ section.col-datos .perfil{
 .enlace *{
   font-size: 1rem;
   margin: 0 20px;
+}
+.tendencias,
+.perfil div{
+  padding: 10px;
+  padding-top: 20px;
+}
+.perfil .info{
+  position: relative;
+}
+.tendencia{
+  padding: 10px;
+}
+.foto1{
+  position: absolute;
+  top: -30px;
+  float: left;
+}
+.name{
+  position: absolute;
+  right: 40px;
+  top: 0;
 }
